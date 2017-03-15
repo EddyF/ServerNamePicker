@@ -90,7 +90,7 @@ foreach($devs as $eachDeveloper){
 
 	echo 
 		 '<h2>'.
-		 '<img src="'.$houses[$random]['img'].'" width="50px" />
+		 '<img src="'.$houses[$random]['img'].'" height="20px" />
 		 	'.$eachDeveloper .' : '.$houses[$random]['label'].'</h2>'.
  		 '<p>'.$houses[$random]['description'].'</p>'.
  		 '<hr>';
